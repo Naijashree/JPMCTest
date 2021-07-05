@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="61.888494">
+<testcase classname="Google search for JPMMC and VAlidates the Logo on JPMC website" name="Navigate to Google landing Page" time="61.888494">
+<system-out><![CDATA[Given Initialize the browser with "chrome"..................................passed
+When Navigate to "https://www.google.com/" site.............................passed
+Then Validate Google logo...................................................passed
+When Search box is visible in landing page..................................passed
+And User enters text "J.P. Morgan"..........................................passed
+And User clicks on search Button............................................passed
+Then results for JpMorgan is shown..........................................passed
+When User clicks on First link..............................................passed
+And User lands on JPMC landing page and logo should be displayed............passed
+Then Brower should be closed................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

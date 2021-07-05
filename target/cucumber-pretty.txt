@@ -1,0 +1,15 @@
+@userflow
+Feature: Google search for JPMMC and VAlidates the Logo on JPMC website
+
+  @LandOnGoogleSearchPage
+  Scenario: Navigate to Google landing Page                          # GoogleSearch.feature:5
+    Given Initialize the browser with "chrome"                       # GoogleSearchStepDefination.initialize_the_browser_with(String)
+    When Navigate to "https://www.google.com/" site                  # GoogleSearchStepDefination.navigate_to_site(String)
+    Then Validate Google logo                                        # GoogleSearchStepDefination.validate_Google_logo()
+    When Search box is visible in landing page                       # GoogleSearchStepDefination.search_box_is_visible_in_landing_page()
+    And User enters text "J.P. Morgan"                               # GoogleSearchStepDefination.user_enters_text(String)
+    And User clicks on search Button                                 # GoogleSearchStepDefination.user_clicks_on_search_Button()
+    Then results for JpMorgan is shown                               # GoogleSearchStepDefination.results_for_JpMorgan_is_shown()
+    When User clicks on First link                                   # GoogleSearchStepDefination.user_clicks_on_First_link()
+    And User lands on JPMC landing page and logo should be displayed # GoogleSearchStepDefination.user_lands_on_JPMC_landing_page_and_logo_should_be_displayed()
+    Then Brower should be closed                                     # GoogleSearchStepDefination.brower_should_be_closed()

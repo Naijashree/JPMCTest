@@ -1,0 +1,182 @@
+[
+  {
+    "source": "^Navigate to \"([^\"]*)\" site$",
+    "steps": [
+      {
+        "name": "Navigate to \"https://www.google.com/\" site",
+        "aggregatedDurations": {
+          "average": 4.517454,
+          "median": 4.517454
+        },
+        "durations": [
+          {
+            "duration": 4.517454,
+            "location": "GoogleSearch.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Initialize the browser with \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Initialize the browser with \"chrome\"",
+        "aggregatedDurations": {
+          "average": 5.899161101,
+          "median": 5.899161101
+        },
+        "durations": [
+          {
+            "duration": 5.899161101,
+            "location": "GoogleSearch.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate Google logo$",
+    "steps": [
+      {
+        "name": "Validate Google logo",
+        "aggregatedDurations": {
+          "average": 0.3781489,
+          "median": 0.3781489
+        },
+        "durations": [
+          {
+            "duration": 0.3781489,
+            "location": "GoogleSearch.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on First link$",
+    "steps": [
+      {
+        "name": "User clicks on First link",
+        "aggregatedDurations": {
+          "average": 45.1710185,
+          "median": 45.1710185
+        },
+        "durations": [
+          {
+            "duration": 45.1710185,
+            "location": "GoogleSearch.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Brower should be closed$",
+    "steps": [
+      {
+        "name": "Brower should be closed",
+        "aggregatedDurations": {
+          "average": 0.693822099,
+          "median": 0.693822099
+        },
+        "durations": [
+          {
+            "duration": 0.693822099,
+            "location": "GoogleSearch.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^results for JpMorgan is shown$",
+    "steps": [
+      {
+        "name": "results for JpMorgan is shown",
+        "aggregatedDurations": {
+          "average": 0.086992299,
+          "median": 0.086992299
+        },
+        "durations": [
+          {
+            "duration": 0.086992299,
+            "location": "GoogleSearch.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search box is visible in landing page$",
+    "steps": [
+      {
+        "name": "Search box is visible in landing page",
+        "aggregatedDurations": {
+          "average": 0.1373469,
+          "median": 0.1373469
+        },
+        "durations": [
+          {
+            "duration": 0.1373469,
+            "location": "GoogleSearch.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters text \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enters text \"J.P. Morgan\"",
+        "aggregatedDurations": {
+          "average": 0.2711022,
+          "median": 0.2711022
+        },
+        "durations": [
+          {
+            "duration": 0.2711022,
+            "location": "GoogleSearch.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on search Button$",
+    "steps": [
+      {
+        "name": "User clicks on search Button",
+        "aggregatedDurations": {
+          "average": 4.5657365,
+          "median": 4.5657365
+        },
+        "durations": [
+          {
+            "duration": 4.5657365,
+            "location": "GoogleSearch.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User lands on JPMC landing page and logo should be displayed$",
+    "steps": [
+      {
+        "name": "User lands on JPMC landing page and logo should be displayed",
+        "aggregatedDurations": {
+          "average": 0.167711101,
+          "median": 0.167711101
+        },
+        "durations": [
+          {
+            "duration": 0.167711101,
+            "location": "GoogleSearch.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]
